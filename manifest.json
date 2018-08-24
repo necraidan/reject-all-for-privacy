@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Reject All for privacy",
+    "version": "0.1.0",
+    "description": "Reject all ad agencies on your page",
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js": ["test.js"]
+        }
+    ],
+    "icons": { "32": "icon.png" }
+}
