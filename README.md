@@ -1,5 +1,7 @@
 # reject-all-extension
-Reject all ad agencies on your page
+Reject all ad agencies on your page.
+
+This extension can help you to reject all toggle button in this kind of page.
 
 Chrome and Firefox extension.
 
